@@ -1,0 +1,52 @@
+2017-02-02 14:18:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SCHEMA_MIGRATIONS" not found; SQL statement:
+SELECT 1 FROM schema_migrations [42102-192]
+2017-02-02 14:18:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE URLS
+(ID INTEGER PRIMARY KEY AUTO_INCREMENT,
+URL VARCHAR(256)),[*]
+TIMESTAMP TIMESTAMP);
+
+ "; SQL statement:
+CREATE TABLE urls
+(id INTEGER PRIMARY KEY AUTO_INCREMENT,
+url VARCHAR(256)),
+timestamp TIMESTAMP);
+
+ [42000-192]
+2017-02-07 10:04:56 jdbc[1544]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 10:07:35 jdbc[1544]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 10:08:38 jdbc[1546]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 10:26:51 jdbc[1553]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 10:30:05 jdbc[1553]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 10:30:32 jdbc[1553]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 10:48:07 jdbc[1563]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 10:56:46 jdbc[1563]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
+2017-02-07 11:37:09 jdbc[1574]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "www.google.com"; SQL statement:
+SELECT * FROM urls
+WHERE id = ? [22018-192]
